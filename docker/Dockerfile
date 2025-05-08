@@ -51,6 +51,7 @@ RUN pip3 install --upgrade pip==9.0.3 && \
                            editdistance \
                            matplotlib \
                            seaborn && \
+RUN pip3 install --upgrade pip==9.0.3 && \
     pip3 install --upgrade http://download.pytorch.org/whl/cpu/torch-0.4.0-cp35-cp35m-linux_x86_64.whl \
                            torchvision \
                            tensorflow \
